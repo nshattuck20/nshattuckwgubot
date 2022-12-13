@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern>no career suggestion</pattern>
+	    <template>
+	        Hmm...you have a unique skill set. You can schedule an appointment with your advisor who can 
+	        help you determine the best path forward for you. 
+	        <br></br><br></br>
+	        
+	        To end this session, type "Good Bye". 
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>good bye</pattern>
+        <template>
+            Good bye!
+        </template>
+    </category>
+    
+    
+</aiml>

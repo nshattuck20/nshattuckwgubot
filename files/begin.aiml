@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern>HI ^</pattern>
+      <template>Hi there! I'm your personal student career advisory bot for the WGU Computer Science Department. 
+      Please select one of the options below.
+      
+      <button>
+          <text>View our top 5 career options</text>
+          <postback>careers</postback>
+      </button>
+      
+      <button>
+          <text>Find a career</text>
+          <postback>find career</postback>
+      </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>careers</pattern>
+      <template>Here are our top 5 career options
+      
+      <button>
+          <text>Data Scientist</text>
+          <postback>data science</postback>
+      </button>
+      
+       <button>
+          <text>Web Developer</text>
+          <postback>web dev</postback>
+      </button>
+      
+       <button>
+          <text>Web Designer</text>
+          <postback>web design</postback>
+      </button>
+       
+       <button>
+          <text>Mobile Application Developer</text>
+          <postback>mobile developer</postback>
+      </button>
+      
+       <button>
+          <text>Database Administrator</text>
+          <postback>administrator</postback>
+      </button>
+      
+      
+      </template>
+  </category>
+  
+  <category>
+      <pattern>find career</pattern>
+      <template>My pleasure! I will need to ask you a few questions first.
+      <br></br><br></br>
+      Do you find that you're good at math and programming? 
+      <button>
+          <text>Yes</text>
+          <postback>ds question</postback>
+      </button>
+      <button>
+          <text>I'm not great at math, but like programming.</text>
+          <postback>programming question</postback>
+      </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>ds question</pattern>
+      <template>
+         Do you have interest in analyzing data from a statistical perspective?
+         
+          <button>
+          <text>Yes</text>
+          <postback>ds question2</postback>
+          </button>
+          
+          <button>
+              <text>No, but I'm interested in data.</text>
+              <postback>data admin question</postback>
+          </button>
+      </template>
+      
+  </category>
+  
+  <category>
+      <pattern>ds question2</pattern>
+      <template>
+         Have you considered or had interest in working for a software punlisher, 
+         the government, or a research and development environment?
+         
+          <button>
+          <text>Yes</text>
+          <postback>data science career</postback>
+          <!---->
+          </button>
+          
+          <button>
+              <text>No</text>
+              <postback>no career suggestion</postback>
+          </button>
+      </template>
+      
+  </category>
+  
+    <category>
+      <pattern>programming question</pattern>
+      <template>
+         Do you find that you're good at programming but not design?
+          <button>
+          <text>Yes</text>
+          <postback>web dev question</postback>
+          <!---->
+          </button>
+          <button>
+              <text>No, I prefer designing.</text>
+              <postback>web design question</postback>
+          </button>
+      
+     </template>
+      
+  </category>
+
+    <category>
+      <pattern>web dev question</pattern>
+      <template>
+         Have you considered working in a development environment such as a software company?
+        <button>
+          <text>Yes</text>
+          <postback>web dev question2</postback>
+        </button>
+        
+        <button>
+            <text>No</text>
+            <postback>data admin question</postback>
+        </button>
+        
+      </template>
+    </category>
+    
+    <category>
+      <pattern>web dev question2</pattern>
+      <template>
+         Do you have any experience building websites or working with web APIs?
+        <button>
+          <text>Yes</text>
+          <postback>web dev career</postback>
+        </button>
+        
+        <button>
+            <text>No, I'm more into mobile devices.</text>
+            <postback>mobile dev question</postback>
+        </button>
+      </template>
+    </category>
+    
+    <category>
+        <pattern>web design question</pattern>
+        <template>
+            Do you have interest or experience creating websites based on the client’s preferences 
+            of colour, font, style and media preferences?
+       
+        <button>
+            <text>Yes</text>
+            <postback>web design career</postback>
+        </button>
+        
+        <button>
+            <text>No</text>
+            <postback>no career suggestion</postback>
+        </button>
+        
+        </template>
+    </category>
+    
+    <category>
+        <pattern>mobile dev question</pattern>
+        <template>
+            Do you have any experience or interest in working creating mobile apps or working with 
+            mobile APIs?
+        
+        
+        <button>
+            <text>Yes</text>
+            <postback>mobile developer career</postback>
+        </button>
+        
+        <button>
+            <text>No</text>
+            <postback>no career suggestion</postback>
+        </button>
+        
+        </template>
+    </category>
+    
+    <category>
+        <pattern>data admin question</pattern>
+    <template>
+        Do you have interest in being in charge of data, and determining who has secure access to that data?
+        <button>
+            <text>Yes</text>
+            <postback>administrator career</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>no career suggestion</postback>
+        </button>
+      
+    </template>
+    </category>
+
+</aiml>

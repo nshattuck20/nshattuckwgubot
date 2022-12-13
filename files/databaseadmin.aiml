@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>administrator</pattern>
+	    <template>
+	        <br></br><br></br>
+	        <image>https://www.codecademy.com/resources/blog/content/images/2021/11/What-Does-a-Database-Administrator-Do--1.png</image>
+	        Database administrators optmize databases so that they run efficiently.
+	        They also adjust systems to securely store various types of data, 
+	        such as financial data and customer shipping records. 
+	      
+	         
+	        <br></br><br></br>
+	        <link>
+	            <text>Learn more</text>
+	            <url>https://www.careerexplorer.com/careers/database-administrator/</url>
+            </link>
+            
+            <button>
+                <text>Click here to explore more careers</text>
+                <postback>careers</postback>
+            </button>
+    
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>administrator career</pattern>
+        <template>
+            A career as a Database Administrator is a great fit for you!
+            <br></br><br></br>
+            Database administrators optmize databases so that they run efficiently.
+	        They also adjust systems to securely store various types of data, 
+	        such as financial data and customer shipping records. 
+	      
+            
+            <br></br><br></br>
+            <image>https://www.codecademy.com/resources/blog/content/images/2021/11/What-Does-a-Database-Administrator-Do--1.png</image>
+            
+             
+	        
+	         <link>
+	            <text>Learn more about becoming a Database Administrator</text>
+	            <url>https://www.careerexplorer.com/careers/database-administrator/</url>
+            </link>
+            
+            <button>
+                <text>Click here to explore more careers</text>
+                <postback>careers</postback>
+            </button>
+            
+            <br></br><br></br>
+             Type "good bye" to end this session.
+        </template>
+    </category>
+</aiml>

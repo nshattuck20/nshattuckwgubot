@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>data science</pattern>
+	    <template>
+	          <br></br><br></br>
+	        <image>https://www.gudusoft.com/wp-content/uploads/2022/04/data_scientists.jpg</image>
+	        Data scientists use programming languages like Python or R to transform data into tangible business value by analyzing information, 
+	        communicating outcomes and collaborating on product development.
+	        
+	        <link>
+	            <text>Learn more</text>
+	            <url>https://datasciencedegree.wisconsin.edu/data-science/what-do-data-scientists-do/</url>
+            </link>
+            
+            <button>
+                <text>Click here to explore more careers</text>
+                <postback>careers</postback>
+            </button>
+    
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>data science career</pattern>
+        <template>
+            A career as a Data Scientist is a great fit for you!
+            <br></br><br></br>
+            Data scientists use programming languages like Python or R to transform data into tangible business value by analyzing information, 
+	        communicating outcomes and collaborating on product development.
+	        
+	         <link>
+	            <text>Learn more about becoming a Data Scientist</text>
+	            <url>https://datasciencedegree.wisconsin.edu/data-science/what-do-data-scientists-do/</url>
+            </link>
+            
+            <button>
+                <text>Click here to explore more careers</text>
+                <postback>careers</postback>
+            </button>
+            
+            <br></br><br></br>
+            Type "good bye" to end this session.
+            
+            
+        </template>
+    </category>
+</aiml>

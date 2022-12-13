@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>web dev</pattern>
+	    <template>
+	        <br></br><br></br>
+	        <image>https://cdn2.vectorstock.com/i/1000x1000/47/61/web-developer-design-vector-6584761.jpg</image>
+	        
+	        Web developers create and maintain websites. They also oversee the site's technical aspects, such as its performance and capacity, 
+	        which are measures of a website's speed and how much traffic the site can handle. 
+	        <br></br><br></br>
+	        <link>
+	            <text>Learn more</text>
+	            <url>https://www.coursera.org/articles/web-developer/</url>
+            </link>
+            
+            <button>
+                <text>Click here to explore more careers</text>
+                <postback>careers</postback>
+            </button>
+    
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>web dev career</pattern>
+        <template>
+            A career as a Web Developer is a great fit for you!
+            <br></br><br></br>
+            <image>https://cdn2.vectorstock.com/i/1000x1000/47/61/web-developer-design-vector-6584761.jpg</image>
+            
+            Web developers create and maintain websites. They also oversee the site's technical aspects, such as its performance and capacity, 
+	        which are measures of a website's speed and how much traffic the site can handle. 
+	        
+	         <link>
+	            <text>Learn more about becoming a Web Developer</text>
+	            <url>https://www.coursera.org/articles/web-developer/</url>
+            </link>
+            
+            <button>
+                <text>Click here to explore more careers</text>
+                <postback>careers</postback>
+            </button>
+            
+            <br></br><br></br>
+             Type "good bye" to end this session.
+    
+        </template>
+    </category>
+	
+</aiml>

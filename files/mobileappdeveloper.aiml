@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>mobile developer</pattern>
+	    <template>
+	        <br></br><br></br>
+	        <image>https://miro.medium.com/max/1400/1*X7iPqqbpSdHts4nr6Gn4yA.png</image>
+	        Mobile developers are software developers that specialise in mobile technology. 
+	        They code apps for Google's Android, or Apple's iOS and include job titles such as 
+	        Android developer and iOS developer.
+	         
+	        <br></br><br></br>
+	        <link>
+	            <text>Learn more</text>
+	            <url>https://www.indeed.com/career-advice/finding-a-job/what-is-mobile-app-developer</url>
+            </link>
+            
+            <button>
+                <text>Click here to explore more careers</text>
+                <postback>careers</postback>
+            </button>
+    
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>mobile developer career</pattern>
+        <template>
+            A career as a Mobile Developer is a great fit for you!
+            
+            Mobile developers are software developers that specialise in mobile technology. 
+	        They code apps for Google's Android, or Apple's iOS and include job titles such as 
+	        Android developer and iOS developer.
+            <br></br><br></br>
+            <image>https://miro.medium.com/max/1400/1*X7iPqqbpSdHts4nr6Gn4yA.png</image>
+            
+             
+	        
+	         <link>
+	            <text>Learn more about becoming a Mobile Developer</text>
+	            <url>https://www.indeed.com/career-advice/finding-a-job/what-is-mobile-app-developer</url>
+            </link>
+            
+            <button>
+                <text>Click here to explore more careers</text>
+                <postback>careers</postback>
+            </button>
+            
+            <br></br><br></br>
+             Type "good bye" to end this session.
+        </template>
+    </category>
+</aiml>

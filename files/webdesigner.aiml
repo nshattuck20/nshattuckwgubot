@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+	    <pattern>web design</pattern>
+	    <template>
+	        <br></br><br></br>
+          <image>https://distancelearning-images.s3.eu-west-2.amazonaws.com/blog/Top-5-reasons-to-become-a-web-designer.jpg</image>
+	       Web designers plan, create and code internet sites and web pages.
+	       Web designers create the design and layout of a website or web pages 
+	        <br></br><br></br>
+	        <link>
+	            <text>Learn more</text>
+	            <url>https://www.coursera.org/articles/web-designer</url>
+            </link>
+            
+            <button>
+                <text>Click here to explore more careers</text>
+                <postback>careers</postback>
+            </button>
+    
+	    </template>
+    </category>
+    
+   <category>
+	    <pattern>web design career</pattern>
+	    <template>
+	        A career as a Web Developer is a great fit for you!
+	        <br></br><br></br>
+          <image>https://distancelearning-images.s3.eu-west-2.amazonaws.com/blog/Top-5-reasons-to-become-a-web-designer.jpg</image>
+	       Web designers plan, create and code internet sites and web pages.
+	       Web designers create the design and layout of a website or web pages 
+	        <br></br><br></br>
+	        <link>
+	            <text>Learn more</text>
+	            <url>https://www.coursera.org/articles/web-designer</url>
+            </link>
+            
+            <button>
+                <text>Click here to explore more careers</text>
+                <postback>careers</postback>
+            </button>
+            
+            <br></br><br></br>
+             Type "good bye" to end this session.
+	    </template>
+    </category>
+</aiml>
